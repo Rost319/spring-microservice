@@ -7,9 +7,9 @@
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/eureka-server" name="eureka-server">
+              <build path="$PROJECT_DIR$/api-gateway" name="api-gateway">
                 <projects>
-                  <project path="$PROJECT_DIR$/eureka-server" />
+                  <project path="$PROJECT_DIR$/api-gateway" />
                 </projects>
               </build>
               <build path="$PROJECT_DIR$/eureka-client" name="eureka-client">
@@ -22,19 +22,16 @@
                   <project path="$PROJECT_DIR$/eureka-client-2" />
                 </projects>
               </build>
-              <build path="$PROJECT_DIR$/api-gateway" name="api-gateway">
+              <build path="$PROJECT_DIR$/eureka-server" name="eureka-server">
                 <projects>
-                  <project path="$PROJECT_DIR$/api-gateway" />
+                  <project path="$PROJECT_DIR$/eureka-server" />
                 </projects>
               </build>
             </builds>
           </compositeBuild>
         </compositeConfiguration>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="11" />
+        <option name="gradleJvm" value="17" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -44,48 +41,32 @@
             <option value="$PROJECT_DIR$/eureka-server" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/api-gateway" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-client" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/eureka-client" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-client-2" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/eureka-client-2" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-server" />
         <option name="gradleJvm" value="17" />
         <option name="modules">
@@ -93,7 +74,6 @@
             <option value="$PROJECT_DIR$/eureka-server" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
